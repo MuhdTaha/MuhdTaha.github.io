@@ -9,7 +9,7 @@ export const Bio = {
       "As a driven and adaptable Computer Science student, I thrive on embracing new challenges. My insatiable passion for learning is the driving force behind my commitment to delivering top-notch results. Equipped with a positive attitude and a growth mindset, I am poised to contribute meaningfully and achieve remarkable milestones.",
     github: "https://github.com/MuhdTaha",
     resume:
-      "https://drive.google.com/file/d/1Yk8AhrtuXg6pXmd1KWaQzR6wBXYtnxxX/view?usp=drive_link",
+      "https://drive.google.com/file/d/1DxBSc1-0zxOCrW7HxFhcoNCeYRRU1ayO/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/muhdtaha",
     twitter: "",
     insta: "",
