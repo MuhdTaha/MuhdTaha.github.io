@@ -1,15 +1,17 @@
 export const Bio = {
     name: "Muhammad Taha",
     roles: [
-      "CS Student",
-      "Developer",
+      "CS Undergraduate",
       "Programmer",
+      "Software Developer",
+      "Web Developer",
+      "Android Developer",
     ],
     description:
       "As a driven and adaptable Computer Science student, I thrive on embracing new challenges. My insatiable passion for learning is the driving force behind my commitment to delivering top-notch results. Equipped with a positive attitude and a growth mindset, I am poised to contribute meaningfully and achieve remarkable milestones.",
     github: "https://github.com/MuhdTaha",
     resume:
-      "https://drive.google.com/file/d/1DxBSc1-0zxOCrW7HxFhcoNCeYRRU1ayO/view?usp=sharing",
+      "https://drive.google.com/file/d/1-qOcurAVphCDKSK9QDCNKGJsQhTvB4vF/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/muhdtaha",
     twitter: "",
     insta: "",
@@ -65,6 +67,11 @@ export const Bio = {
       title: "Tools",
       skills: [
         {
+          name: "Git",
+          image:
+            "https://static-00.iconduck.com/assets.00/git-icon-2048x2048-juzdf1l5.png",
+        },
+        {
           name: "GitHub",
           image:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
@@ -73,6 +80,11 @@ export const Bio = {
           name: "MySQL",
           image:
             "https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png",
+        },
+        {
+          name: "SQLite",
+          image:
+            "https://dwglogo.com/wp-content/uploads/2018/03/SQLite_Vector_logo.png",
         },
         {
           name: "MongoDB",
@@ -94,7 +106,12 @@ export const Bio = {
             "https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png",
         },
         {
-          name: "Spring",
+          name: "Apache Maven",
+          image:
+            "https://static-00.iconduck.com/assets.00/file-type-maven-icon-1532x2048-ey28j8qf.png",
+        },
+        {
+          name: "Spring Boot",
           image:
             "https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png",
         },
@@ -123,6 +140,11 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/2048px-Android_Studio_icon_%282023%29.svg.png",
         },
+        {
+          name: "Docker",
+          image:
+            "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png",
+        },
       ],
     },
   ];
@@ -130,6 +152,18 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "Recipe Radar App",
+      date: "Sep 2024",
+      description:
+        "RecipeRadar is a modern food recipe app built for Android using Kotlin, designed to provide users with a rich collection of recipes. Users can search, view, and explore recipes seamlessly, with smooth animations via Motion Layout and an elegant design that follows Material Design principles.",
+      image:
+        "https://raw.githubusercontent.com/MuhdTaha/RecipeRadar/46e5435642b6a6561b23e4a1f2ba718bcca224d6/media/homeScreen.png",
+      tags: ["Android Studios", "Kotlin", "Java", "XML", "SQLite", "Room"],
+      github: "https://github.com/MuhdTaha/RecipeRadar",
+      webapp: "https://drive.google.com/file/d/1MJVwkCkNRBJ80IJJ4Ob0Ff4zIR9VCwiz/view?usp=sharing",
+    },
+    {
+      id: 1,
       title: "Brain Busters Quiz",
       date: "Dec 2023",
       description:
@@ -141,9 +175,9 @@ export const Bio = {
       webapp: "https://drive.google.com/file/d/1DbXsDiCLC-JQyZ6ZYxFbsiRaAaQOesRK/view?usp=sharing",
     },
     {
-      id: 1,
+      id: 2,
       title: "File Management System",
-      date: "",
+      date: "Apr 2022",
       description:
         "A Java web application that provides a file management system for employees to access, download, and manage files. ",
       image:
